@@ -52,7 +52,6 @@ function films() {
 
   function printFilms() {
     let filmObj = JSON.parse(this.responseText);
-    console.log(filmObj.results);
     let getFilmList = document.getElementById("filmList");
 
     for (
